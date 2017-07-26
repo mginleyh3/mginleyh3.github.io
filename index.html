@@ -13,17 +13,19 @@
 </style>
 	</head>
 <body>
+  <!-- Background-->
+  <img src="mountains-snow.jpg" style="width:100%;position:fixed;opacity:.13">
   <!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+<nav class="w3-sidebar w3-black w3-animate-top w3-display-topright w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
     <i class="fa fa-remove"></i>
   </a>
   <div class="w3-bar-block w3-center">
-    <a href="AboutMe.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About Me</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
     <a href="Science.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Science</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Adventure</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
-    <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
+    <a href="Adventure.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Adventure</a>
+    <a href="Photos.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+    <a href="Contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
   </div>
 </nav>
 
@@ -36,16 +38,17 @@
 <!-- Header -->
 <div class="header">
 	    <img src="mountains-snow.jpg">
-	    <h1>Matt Ginley Does Things</h1>
-<span class="w3-button w3-xxlarge w3-white w3-display-topright" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+	    <h1 id="title">Matt Ginley Does Things</h1>
+  <span class="w3-button w3-white w3-display-topright w3-large" style="margin:6px" onclick="w3_open()"><i class="fa fa-bars"></i></span>
 <div class="w3-clear"></div>
+<button onclick="getwidth()">Try it</button>
 </div>
 <br>
 <br>
 <!-- Photo Grid -->
 <div class="w3-row-padding" id="myGrid" style="margin-bottom:128px">
   <div class="w3-third">
-<<<<<<< HEAD
+
     <div class="container">
     <img src="shipCanyon.jpg" style="width:100%">
     <div class="overlay">
@@ -54,14 +57,25 @@
         </div>
       </div>
   </div>
-=======
-    <img src="shipCanyon.JPG" style="width:100%">
-    
->>>>>>> 1abb7a0ac078bd04c24240fc97b08ebd4608fae9
+  <div class="container">
+    <img src="shipCanyon.jpg" style="width:100%">
+    <div class="overlay">
+        <div class="textoverlay">
+          Utah desert
+        </div>
+      </div>
+  </div>
+  <div class="container">
+    <img src="shipCanyon.jpg" style="width:100%">
+    <div class="overlay">
+        <div class="textoverlay">
+          Utah desert
+        </div>
+      </div>
+  </div>
   </div>
 
   <div class="w3-third">
-    <img src="mountains-snow.jpg" style="width:100%">
   </div>
 
   <div class="w3-third">
@@ -75,9 +89,9 @@
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
   <i class="fa fa-facebook-official w3-hover-opacity"></i>
-  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <a href="https://www.instagram.com/mattginley/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
   <i class="fa fa-linkedin w3-hover-opacity"></i>
-<p>
+<p style="font-size:14px">
 		This is me making a website for fun cuz why not
 </p>
 </footer>
@@ -85,12 +99,29 @@
 <script>
 // Open and close sidebar
 function w3_open() {
+  var w=window.innerWidth;
+  if(w>1048){
+    document.getElementById("mySidebar").style.width = "20%";
+    }
+  else if(w>600){
+    document.getElementById("mySidebar").style.width = "50%";
+  }
+  else{
     document.getElementById("mySidebar").style.width = "100%";
-    document.getElementById("mySidebar").style.display = "block";
+  }
+  document.getElementById("mySidebar").style.display = "block";
+
+  
 }
 
 function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
+}
+
+function getwidth(){
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  document.getElementById("title").innerHTML = "Width: " + w + "<br>Height: " + h;
 }
 </script>
 	</body>
