@@ -1,0 +1,92 @@
+Barcode Processing Summary:	/SeqStore04/170713_D00550_0444_BCB852ANXX
+
+Too many bad bar codes to count in lane 1. Estimating.
+Too many bad bar codes to count in lane 2. Estimating.
+Too many bad bar codes to count in lane 3. Estimating.
+Too many bad bar codes to count in lane 4. Estimating.
+Too many bad bar codes to count in lane 5. Estimating.
+Too many bad bar codes to count in lane 6. Estimating.
+Too many bad bar codes to count in lane 7. Estimating.
+Too many bad bar codes to count in lane 8. Estimating.
+Lane	Status	Sample	Index	% Reads	# Reads	Volume	Requester
+1	Problem!	None	GGTTCCTC	14.5%	46,516,668	5861.10 Mb	unknown
+1	Problem!	None	ATCTCTGT	13.3%	42,769,547	5388.96 Mb	unknown
+1	Problem!	None	GGAGAGAG	13.0%	41,588,698	5240.18 Mb	unknown
+1	Problem!	14425X1	CCTAGACC	13.0%	41,559,663	5236.52 Mb	Samuel Brady
+1	Problem!	None	CCGGGTAT	12.7%	40,734,106	5132.50 Mb	unknown
+1	Problem!	None	ATCATGCA	11.4%	36,695,844	4623.68 Mb	unknown
+1	Problem!	None	TAGCTCTA	9.5%	30,341,627	3823.05 Mb	unknown
+1	Problem!	14425X2	TAACAAGG	9.0%	28,978,626	3651.31 Mb	Samuel Brady
+1	Problem!	None	others	3.6%	11,436,616	1441.01 Mb
+Lane 1 summary					320,621,395	40.40 Gb
+
+2	Problem!	None	CGTCCCGT	17.5%	55,965,402	7051.64 Mb	unknown
+2	Problem!	None	CGCATGTG	17.0%	54,381,012	6852.01 Mb	unknown
+2	Problem!	None	GAAGGAAC	16.0%	50,965,950	6421.71 Mb	unknown
+2	Problem!	14425X3	TTTCATGA	15.5%	49,387,453	6222.82 Mb	Samuel Brady
+2	Problem!	None	ACAAGGTA	10.5%	33,339,861	4200.82 Mb	unknown
+2	Problem!	14425X4	GTGGTACC	8.0%	25,397,289	3200.06 Mb	Samuel Brady
+2	Problem!	None	others	15.5%	49,557,584	6244.26 Mb
+Lane 2 summary					318,994,551	40.19 Gb
+
+3	Problem!	None	CGCGATAC	16.2%	48,710,961	6137.58 Mb	unknown
+3	Problem!	None	CCTGTGCG	16.2%	48,529,868	6114.76 Mb	unknown
+3	Problem!	None	GGACACGT	13.5%	40,419,943	5092.91 Mb	unknown
+3	Problem!	14425X6	TACTCTTC	11.9%	35,862,797	4518.71 Mb	Samuel Brady
+3	Problem!	None	ATGAGAAA	10.3%	30,840,018	3885.84 Mb	unknown
+3	Problem!	None	GAATTCCA	10.2%	30,744,464	3873.80 Mb	unknown
+3	Problem!	None	ACGCGGGT	9.3%	27,793,408	3501.97 Mb	unknown
+3	Problem!	14425X5	TTTACATG	9.2%	27,548,457	3471.11 Mb	Samuel Brady
+3	Problem!	None	others	3.2%	9,686,527	1220.50 Mb
+Lane 3 summary					300,136,443	37.82 Gb
+
+4	Problem!	None	TCGGCGTC	16.4%	52,905,450	6666.09 Mb	unknown
+4	Problem!	None	TCCGGAAG	12.9%	41,475,900	5225.96 Mb	unknown
+4	Problem!	None	CAGCATCA	12.8%	41,257,262	5198.42 Mb	unknown
+4	Problem!	None	AGTTCGGC	11.7%	37,840,987	4767.96 Mb	unknown
+4	Problem!	None	AACCGTAA	11.4%	36,761,300	4631.92 Mb	unknown
+4	Problem!	14466X1	GGTTTACT	10.7%	34,583,499	4357.52 Mb	Jay Gertz
+4	Problem!	14466X2	GTAATCTT	10.4%	33,614,979	4235.49 Mb	Jay Gertz
+4	Problem!	None	others	13.6%	43,932,023	5535.43 Mb
+Lane 4 summary					322,371,400	40.62 Gb
+
+5	Problem!	None	ATGCTCCG	16.0%	53,766,748	6774.61 Mb	unknown
+5	Problem!	None	AACTGGCG	13.8%	46,286,915	5832.15 Mb	unknown
+5	Problem!	14466X4	CACTCGGA	13.7%	45,929,901	5787.17 Mb	Jay Gertz
+5	Problem!	None	GCTGAATT	13.3%	44,770,520	5641.09 Mb	unknown
+5	Problem!	None	GGTAACGC	11.2%	37,805,114	4763.44 Mb	unknown
+5	Problem!	None	TGAAGTAC	10.6%	35,610,772	4486.96 Mb	unknown
+5	Problem!	None	TTGGCATA	9.3%	31,383,752	3954.35 Mb	unknown
+5	Problem!	14466X3	CCACTTAT	8.2%	27,488,108	3463.50 Mb	Jay Gertz
+5	Problem!	None	others	3.9%	13,156,310	1657.70 Mb
+Lane 5 summary					336,198,140	42.36 Gb
+
+6	Problem!	None	GTCGATGC	14.7%	49,428,800	6228.03 Mb	unknown
+6	Problem!	None	ATGCCTTA	12.7%	42,779,844	5390.26 Mb	unknown
+6	Problem!	None	ACTAGGAG	12.5%	41,984,572	5290.06 Mb	unknown
+6	Problem!	14467X2	TAATGACC	12.0%	40,434,606	5094.76 Mb	Martin Tristani-Firouzi
+6	Problem!	None	CAGCCACT	12.0%	40,370,227	5086.65 Mb	unknown
+6	Problem!	None	CGTATCGG	11.8%	39,613,010	4991.24 Mb	unknown
+6	Problem!	None	GCCGAGAT	10.7%	36,094,986	4547.97 Mb	unknown
+6	Problem!	14467X1	TGATTCTA	9.9%	33,361,100	4203.50 Mb	Martin Tristani-Firouzi
+6	Problem!	None	others	3.7%	12,400,228	1562.43 Mb
+Lane 6 summary					336,467,373	42.39 Gb
+
+7	Problem!	None	TTCCCGAC	21.5%	62,354,444	7856.66 Mb	unknown
+7	Problem!	None	GCAGTAGA	21.0%	60,893,414	7672.57 Mb	unknown
+7	Problem!	14468X1	CAGTACTG	20.4%	59,165,396	7454.84 Mb	Chad Russell
+7	Problem!	None	AGTAGTCT	19.4%	56,340,813	7098.94 Mb	unknown
+7	Problem!	14446X1	AGCGATAG	14.5%	42,138,087	5309.40 Mb	Chad Russell
+7	Problem!	None	others	3.1%	9,024,598	1137.10 Mb
+Lane 7 summary					289,916,752	36.53 Gb
+
+8	Problem!	None	CTCCTCTA	14.0%	44,174,462	5565.98 Mb	unknown
+8	Problem!	None	ACTGCTCG	12.9%	40,844,094	5146.36 Mb	unknown
+8	Problem!	None	ACCCTCCT	12.7%	40,030,272	5043.81 Mb	unknown
+8	Problem!	None	GAAAGGGT	11.6%	36,685,639	4622.39 Mb	unknown
+8	Problem!	14469X1	TGGTAAAC	11.6%	36,549,651	4605.26 Mb	Melinda Angus-Hill
+8	Problem!	14469X2	GTTGCAGC	10.5%	33,097,280	4170.26 Mb	Melinda Angus-Hill
+8	Problem!	None	others	26.7%	84,422,453	10637.23 Mb
+Lane 8 summary					315,803,851	39.79 Gb
+
+Flowcell summary					2,540,509,905	320.10 Gb
